@@ -1,0 +1,18 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: 146.148.19.212
+    database_port: 3306
+    database_name: montaxiconventionne
+    database_user: root
+    database_password: root
+    mailer_transport: smtp
+    mailer_host: smtp.siapep.fr
+    mailer_user: ludivine009@siapep.fr
+    mailer_password: a-z-e-r-t-
+    mailer_auth_mode:  login
+    mailer_port:       587
+    locale: fr
+    secret: ThisTokenIsNotSoSecretChangeIt
+    debug_toolbar: true
+    debug_redirects: false
+    use_assetic_controller: true
